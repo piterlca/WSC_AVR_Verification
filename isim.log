@@ -1,0 +1,71 @@
+ISim log file
+Running: C:\Users\Piotr\workspace\vlsi\vlsi_mcu - Copy\VLSI_PN_212451_CIELECKI\MCU_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/Piotr/workspace/vlsi/vlsi_mcu - Copy/VLSI_PN_212451_CIELECKI/MCU_tb_isim_beh.wdb 
+ISim P.20131013 (signature 0x8ef4fb42)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps: Error: HREAD Error: Read a ':', expected a Hex character (0-F).
+at 0 ps, Instance /mcu_tb/uut/AVR_Core/AVR_gpreg/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /mcu_tb/uut/AVR_Core/AVR_gpreg/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /mcu_tb/uut/AVR_Core/prog_ctr/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+Finished circuit initialization process.
+at 0 ps, Instance /mcu_tb/uut/AVR_Core/AVR_gpreg/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /mcu_tb/uut/AVR_Core/AVR_gpreg/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 32 ns: Error: HREAD Error: Read a ':', expected a Hex character (0-F).
+at 64 ns: Error: HREAD Error: Read a ':', expected a Hex character (0-F).
+at 96 ns: Error: HREAD Error: Read a ':', expected a Hex character (0-F).
+at 128 ns: Error: HREAD Error: Read a ':', expected a Hex character (0-F).
+at 160 ns: Error: HREAD Error: Read a ':', expected a Hex character (0-F).
+at 192 ns: Error: HREAD Error: Read a ':', expected a Hex character (0-F).
+at 212 ns: Error: HREAD Error: Read a ':', expected a Hex character (0-F).
+at 238 ns(2), Instance /mcu_tb/uut/AVR_Core/AVR_gpreg/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 238 ns(2), Instance /mcu_tb/uut/AVR_Core/AVR_gpreg/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 310 ns(2), Instance /mcu_tb/uut/AVR_Core/AVR_gpreg/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 310 ns(2), Instance /mcu_tb/uut/AVR_Core/AVR_gpreg/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 322 ns(2), Instance /mcu_tb/uut/AVR_Core/AVR_gpreg/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 322 ns(2), Instance /mcu_tb/uut/AVR_Core/AVR_gpreg/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+
+** Failure:Assertion violation
+User(VHDL) Code Called Simulation Stop
+In process test.vhd:stim_proc 
+ 
+INFO: Simulator is stopped.
+ISim P.20131013 (signature 0x8ef4fb42)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps: Error: HREAD Error: Read a ':', expected a Hex character (0-F).
+at 0 ps, Instance /mcu_tb/uut/AVR_Core/AVR_gpreg/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /mcu_tb/uut/AVR_Core/AVR_gpreg/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /mcu_tb/uut/AVR_Core/prog_ctr/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+Finished circuit initialization process.
+at 0 ps, Instance /mcu_tb/uut/AVR_Core/AVR_gpreg/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /mcu_tb/uut/AVR_Core/AVR_gpreg/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 32 ns: Error: HREAD Error: Read a ':', expected a Hex character (0-F).
+at 64 ns: Error: HREAD Error: Read a ':', expected a Hex character (0-F).
+at 96 ns: Error: HREAD Error: Read a ':', expected a Hex character (0-F).
+at 128 ns: Error: HREAD Error: Read a ':', expected a Hex character (0-F).
+at 160 ns: Error: HREAD Error: Read a ':', expected a Hex character (0-F).
+at 192 ns: Error: HREAD Error: Read a ':', expected a Hex character (0-F).
+at 212 ns: Error: HREAD Error: Read a ':', expected a Hex character (0-F).
+at 238 ns(2), Instance /mcu_tb/uut/AVR_Core/AVR_gpreg/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 238 ns(2), Instance /mcu_tb/uut/AVR_Core/AVR_gpreg/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 310 ns(2), Instance /mcu_tb/uut/AVR_Core/AVR_gpreg/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 310 ns(2), Instance /mcu_tb/uut/AVR_Core/AVR_gpreg/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 322 ns(2), Instance /mcu_tb/uut/AVR_Core/AVR_gpreg/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 322 ns(2), Instance /mcu_tb/uut/AVR_Core/AVR_gpreg/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+
+** Failure:Assertion violation
+User(VHDL) Code Called Simulation Stop
+In process test.vhd:stim_proc 
+ 
+INFO: Simulator is stopped.

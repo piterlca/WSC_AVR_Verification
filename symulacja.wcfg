@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Piotr/workspace/vlsi/vlsi_mcu/VLSI_MCU/MCU_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="mcu_tb" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_textio" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="textio" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/mcu_tb/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcu_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcu_tb/progmem_write" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">progmem_write</obj_property>
+      <obj_property name="ObjectShortName">progmem_write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcu_tb/s_instruction" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">s_instruction[15:0]</obj_property>
+      <obj_property name="ObjectShortName">s_instruction[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcu_tb/port_a" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">port_a[7:0]</obj_property>
+      <obj_property name="ObjectShortName">port_a[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcu_tb/port_b" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">port_b[7:0]</obj_property>
+      <obj_property name="ObjectShortName">port_b[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcu_tb/port_c" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">port_c[7:0]</obj_property>
+      <obj_property name="ObjectShortName">port_c[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcu_tb/port_d" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">port_d[7:0]</obj_property>
+      <obj_property name="ObjectShortName">port_d[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mcu_tb/clk_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+</wave_config>

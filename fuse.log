@@ -1,0 +1,61 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "secureip" -o "C:/Users/Piotr/workspace/vlsi/vlsi_mcu - Copy/VLSI_PN_212451_CIELECKI/MCU_tb_isim_beh.exe" -prj "C:/Users/Piotr/workspace/vlsi/vlsi_mcu - Copy/VLSI_PN_212451_CIELECKI/MCU_tb_beh.prj" "work.MCU_tb" 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Piotr/workspace/vlsi/vlsi_mcu - Copy/VLSI_PN_212451_CIELECKI/tri_state_buffer.vhd" into library work
+Parsing VHDL file "C:/Users/Piotr/workspace/vlsi/vlsi_mcu - Copy/VLSI_PN_212451_CIELECKI/reg_1x8.vhd" into library work
+Parsing VHDL file "C:/Users/Piotr/workspace/vlsi/vlsi_mcu - Copy/VLSI_PN_212451_CIELECKI/reg_1bit_CE.vhd" into library work
+Parsing VHDL file "C:/Users/Piotr/workspace/vlsi/vlsi_mcu - Copy/VLSI_PN_212451_CIELECKI/Program_counter.vhd" into library work
+Parsing VHDL file "C:/Users/Piotr/workspace/vlsi/vlsi_mcu - Copy/VLSI_PN_212451_CIELECKI/mux_2x1.vhd" into library work
+Parsing VHDL file "C:/Users/Piotr/workspace/vlsi/vlsi_mcu - Copy/VLSI_PN_212451_CIELECKI/instruction_decoder.vhd" into library work
+Parsing VHDL file "C:/Users/Piotr/workspace/vlsi/vlsi_mcu - Copy/VLSI_PN_212451_CIELECKI/gp_registerss.vhd" into library work
+Parsing VHDL file "C:/Users/Piotr/workspace/vlsi/vlsi_mcu - Copy/VLSI_PN_212451_CIELECKI/branch_decoder.vhd" into library work
+Parsing VHDL file "C:/Users/Piotr/workspace/vlsi/vlsi_mcu - Copy/VLSI_PN_212451_CIELECKI/ALU_op_decoder.vhd" into library work
+Parsing VHDL file "C:/Users/Piotr/workspace/vlsi/vlsi_mcu - Copy/VLSI_PN_212451_CIELECKI/ALU.vhd" into library work
+Parsing VHDL file "C:/Users/Piotr/workspace/vlsi/vlsi_mcu - Copy/VLSI_PN_212451_CIELECKI/progmem.vhd" into library work
+Parsing VHDL file "C:/Users/Piotr/workspace/vlsi/vlsi_mcu - Copy/VLSI_PN_212451_CIELECKI/io_port.vhd" into library work
+WARNING:HDLCompiler:957 - "C:/Users/Piotr/workspace/vlsi/vlsi_mcu - Copy/VLSI_PN_212451_CIELECKI/io_port.vhd" Line 47: Case choice must be a locally static expression
+WARNING:HDLCompiler:957 - "C:/Users/Piotr/workspace/vlsi/vlsi_mcu - Copy/VLSI_PN_212451_CIELECKI/io_port.vhd" Line 50: Case choice must be a locally static expression
+WARNING:HDLCompiler:957 - "C:/Users/Piotr/workspace/vlsi/vlsi_mcu - Copy/VLSI_PN_212451_CIELECKI/io_port.vhd" Line 54: Case choice must be a locally static expression
+Parsing VHDL file "C:/Users/Piotr/workspace/vlsi/vlsi_mcu - Copy/VLSI_PN_212451_CIELECKI/CPU.vhd" into library work
+WARNING:HDLCompiler:946 - "C:/Users/Piotr/workspace/vlsi/vlsi_mcu - Copy/VLSI_PN_212451_CIELECKI/CPU.vhd" Line 195: Actual for formal port not_enable is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/Piotr/workspace/vlsi/vlsi_mcu - Copy/VLSI_PN_212451_CIELECKI/CPU.vhd" Line 240: Actual for formal port d is neither a static name nor a globally static expression
+Parsing VHDL file "C:/Users/Piotr/workspace/vlsi/vlsi_mcu - Copy/VLSI_PN_212451_CIELECKI/uut.vhd" into library work
+Parsing VHDL file "C:/Users/Piotr/workspace/vlsi/vlsi_mcu - Copy/VLSI_PN_212451_CIELECKI/test.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 120656 KB
+Fuse CPU Usage: 420 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package textio
+Compiling package std_logic_textio
+Compiling package numeric_std
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture reg_1x8_a of entity reg_1x8 [\reg_1x8(16)\]
+Compiling architecture idec_a of entity instruction_decoder [instruction_decoder_default]
+Compiling architecture alu_o_d_a of entity ALU_op_decoder [alu_op_decoder_default]
+Compiling architecture gpr_a of entity gp_registerss [gp_registerss_default]
+Compiling architecture mux_a of entity mux_2x8 [mux_2x8_default]
+Compiling architecture alu_a of entity ALU [alu_default]
+Compiling architecture reg_8bit_ce_a of entity reg_8bit_CE [reg_8bit_ce_default]
+Compiling architecture pc_a of entity Program_counter [program_counter_default]
+Compiling architecture bd_a7 of entity branch_decoder [branch_decoder_default]
+Compiling architecture reg_1x8_a of entity reg_1x8 [\reg_1x8(8)\]
+Compiling architecture cpu_a of entity CPU [cpu_default]
+Compiling architecture progmem_a of entity progmem [progmem_default]
+Compiling architecture tsb_a of entity tri_state_buffer [tri_state_buffer_default]
+Compiling architecture iop_a of entity io_port [\io_port(('0','0','0','0','0','0...]
+Compiling architecture iop_a of entity io_port [\io_port(('0','0','0','0','0','0...]
+Compiling architecture iop_a of entity io_port [\io_port(('0','0','0','0','0','0...]
+Compiling architecture iop_a of entity io_port [\io_port(('0','0','0','0','0','0...]
+Compiling architecture at_a of entity AT8535 [at8535_default]
+Compiling architecture behavior of entity mcu_tb
+Time Resolution for simulation is 1ps.
+Waiting for 17 sub-compilation(s) to finish...
+Compiled 44 VHDL Units
+Built simulation executable C:/Users/Piotr/workspace/vlsi/vlsi_mcu - Copy/VLSI_PN_212451_CIELECKI/MCU_tb_isim_beh.exe
+Fuse Memory Usage: 145920 KB
+Fuse CPU Usage: 1200 ms

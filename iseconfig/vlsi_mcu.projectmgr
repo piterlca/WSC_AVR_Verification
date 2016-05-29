@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="vlsi_mcu" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/AT8535 - at_A C:|Users|Piotr|workspace|vlsi|vlsi_mcu|VLSI_MCU|AT8535.vhd/PORTA - io_port - iop_a</ClosedNode>
+         <ClosedNode>/AT8535 - at_A C:|Users|Piotr|workspace|vlsi|vlsi_mcu|VLSI_MCU|uut.vhd/AVR_Core - CPU - CPU_a</ClosedNode>
+         <ClosedNode>/CPU - CPU_a C:|Users|Piotr|workspace|vlsi|vlsi_mcu|CPU.vhd/AVR_Idec - instruction_decoder - Idec_a</ClosedNode>
+         <ClosedNode>/CPU - CPU_a C:|Users|Piotr|workspace|vlsi|vlsi_mcu|VLSI_MCU|CPU.vhd/AVR_Idec - instruction_decoder - Idec_a</ClosedNode>
+         <ClosedNode>/instruction_decoder - Idec_a C:|Users|Piotr|workspace|vlsi|vlsi_mcu|instruction_decoder.vhd</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>AT8535 - at_A (C:/Users/Piotr/workspace/vlsi/vlsi_mcu/VLSI_MCU/uut.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000198000000020000000000000000000000000200000064ffffffff000000810000000300000002000001980000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>AT8535 - at_A (C:/Users/Piotr/workspace/vlsi/vlsi_mcu/VLSI_MCU/uut.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000028e000000040101000100000000000000000000000064ffffffff000000810000000000000004000000420000000100000000000000240000000100000000000000660000000100000000000001c20000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>ALU.vhd</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000109000000010001000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/AT8535 - at_A C:|Users|Piotr|workspace|vlsi|vlsi_mcu|VLSI_MCU|AT8535.vhd</ClosedNode>
+         <ClosedNode>/CPU_tb - behavior C:|Users|Piotr|workspace|vlsi|vlsi_mcu|VLSI_MCU|CPU_tb.vhd</ClosedNode>
+         <ClosedNode>/MCU_tb - behavior C:|Users|Piotr|workspace|vlsi|vlsi_mcu|VLSI_MCU|MCU_tb.vhd/uut - AT8535 - at_A/AVR_Core - CPU - CPU_a</ClosedNode>
+         <ClosedNode>/MCU_tb - behavior C:|Users|Piotr|workspace|vlsi|vlsi_mcu|VLSI_MCU|MCU_tb.vhd/uut - AT8535 - at_A/PORTA - io_port - iop_a</ClosedNode>
+         <ClosedNode>/MCU_tb - behavior C:|Users|Piotr|workspace|vlsi|vlsi_mcu|VLSI_MCU|MCU_tb.vhd/uut - AT8535 - at_A/PORTB - io_port - iop_a</ClosedNode>
+         <ClosedNode>/MCU_tb - behavior C:|Users|Piotr|workspace|vlsi|vlsi_mcu|VLSI_MCU|MCU_tb.vhd/uut - AT8535 - at_A/PORTC - io_port - iop_a</ClosedNode>
+         <ClosedNode>/MCU_tb - behavior C:|Users|Piotr|workspace|vlsi|vlsi_mcu|VLSI_MCU|MCU_tb.vhd/uut - AT8535 - at_A/PORTD - io_port - iop_a</ClosedNode>
+         <ClosedNode>/MCU_tb - behavior C:|Users|Piotr|workspace|vlsi|vlsi_mcu|VLSI_MCU|MCU_tb.vhd/uut - AT8535 - at_A/PORT_A - io_port - iop_a</ClosedNode>
+         <ClosedNode>/MCU_tb - behavior C:|Users|Piotr|workspace|vlsi|vlsi_mcu|VLSI_MCU|MCU_tb.vhd/uut - AT8535 - at_A/PORT_B - io_port - iop_a</ClosedNode>
+         <ClosedNode>/MCU_tb - behavior C:|Users|Piotr|workspace|vlsi|vlsi_mcu|VLSI_MCU|MCU_tb.vhd/uut - AT8535 - at_A/PORT_C - io_port - iop_a</ClosedNode>
+         <ClosedNode>/MCU_tb - behavior C:|Users|Piotr|workspace|vlsi|vlsi_mcu|VLSI_MCU|MCU_tb.vhd/uut - AT8535 - at_A/PORT_D - io_port - iop_a</ClosedNode>
+         <ClosedNode>/Universal_registers - Universal_reg_a C:|Users|Piotr|workspace|vlsi|vlsi_mcu|Universal_registers.vhd</ClosedNode>
+         <ClosedNode>/Universal_registers_tb - behavior C:|Users|Piotr|workspace|vlsi|vlsi_mcu|Universal_registers_tb.vhd/uut - Universal_registers - Universal_reg_a</ClosedNode>
+         <ClosedNode>/gpr_tb - behavior C:|Users|Piotr|workspace|vlsi|vlsi_mcu|VLSI_MCU|gpr_tb.vhd</ClosedNode>
+         <ClosedNode>/idec_test - behavior C:|Users|Piotr|workspace|vlsi|vlsi_mcu|VLSI_MCU|idec_test.vhd</ClosedNode>
+         <ClosedNode>/pc_test - behavior C:|Users|Piotr|workspace|vlsi|vlsi_mcu|VLSI_MCU|pc_test.vhd</ClosedNode>
+         <ClosedNode>/progmem_test - behavior C:|Users|Piotr|workspace|vlsi|vlsi_mcu|VLSI_MCU|progmem_test.vhd</ClosedNode>
+         <ClosedNode>/reg_4x8_test - behavior C:|Users|Piotr|workspace|vlsi|vlsi_mcu|reg_4x8_test.vhd</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>vlsi_mcu</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001ef000000020000000000000000000000000200000064ffffffff000000810000000300000002000001ef0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>vlsi_mcu</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff0000000000000002000000b70000008e01000000050100000002</SourceProcessView>
+   <CurrentView>Behavioral Simulation</CurrentView>
+</Project>
